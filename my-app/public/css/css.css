@@ -1,0 +1,105 @@
+.switchable {
+  position: relative;
+}
+.switchable div[class*='col-']:first-child {
+  float: left;
+  right: auto;
+}
+.switchable
+  div[class*='col-']:first-child:not([class*='pull']):not([class*='push']) {
+  left: 0;
+}
+.switchable div[class*='col-']:last-child {
+  float: right;
+  left: auto;
+}
+.switchable
+  div[class*='col-']:last-child:not([class*='pull']):not([class*='push']) {
+  right: 0;
+}
+.switchable.switchable--switch div[class*='col-']:first-child {
+  float: right;
+  right: 0;
+  left: auto;
+}
+.switchable.switchable--switch
+  div[class*='col-']:first-child:not([class*='pull']):not([class*='push']) {
+  left: auto;
+}
+.switchable.switchable--switch div[class*='col-']:last-child {
+  float: left;
+  left: 0;
+  right: auto;
+}
+.switchable .switchable__text {
+  margin-top: 3.71428571em;
+}
+.switchable > div[class*='col-'] {
+  padding: 0;
+}
+.switchable-toggle {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.label.switchable-toggle {
+  left: 50%;
+  right: auto;
+  transform: translate3d(-50%, 0, 0);
+  -webkit-transform: translate3d(-50%, 0, 0);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+}
+@media all and (min-width: 768px) {
+  .switchable .imagebg .boxed {
+    padding-left: 5.57142857em;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .switchable .container > .row {
+    flex-flow: row-reverse;
+  }
+  .switchable.switchable--switch .container > .row {
+    flex-flow: row;
+  }
+}
+.switchable .switchable__text {
+  margin-top: 1.85714286em;
+}
+.switchable [class*='col-']:first-child .switchable__text {
+  margin-bottom: 2.78571429em;
+}
+.section--overlap .row {
+  position: relative;
+  margin-top: -13em;
+}
+@media all and (max-width: 990px) {
+  .switchable .switchable__text {
+    margin-top: 0;
+  }
+}
+@media all and (max-width: 767px) {
+  .switchable .switchable__text {
+    margin-top: 1.85714286em;
+  }
+  .switchable .imageblock__content[class*='col-'] {
+    float: none !important;
+  }
+  .switchable .row > div[class*='col-'] {
+    float: none !important;
+  }
+  .switchable .row > div[class*='col-']:last-child:not(:only-child) {
+    margin-top: 1.85714286em;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .cta-3 .switchable__text {
+    margin-top: 5.57142857em;
+  }
+}
+@media all and (min-width: 1025px) {
+  .testimonial-1 .switchable__text {
+    margin-top: 7.42857143em;
+  }
+}

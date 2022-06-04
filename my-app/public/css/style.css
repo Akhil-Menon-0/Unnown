@@ -1,0 +1,120 @@
+.pt-15 {
+    padding-top: 15rem;
+}
+
+.pt-5 {
+    padding-top: 5rem;
+}
+
+.p-13 {
+    padding: 13rem 0;
+}
+
+
+.mt-4 {
+    margin-top: 4rem;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.ml-2 {
+    margin-left: 2rem !important;
+}
+
+.ml-4 {
+    margin-left: 4rem !important;
+}
+
+.goals--img {
+    width: 35rem;
+}
+
+.text-font {
+    font-size: 21px;
+}
+
+.tp-margin {
+    margin-top: 53px;
+}
+
+.font-sz {
+    font-size: 77px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+
+.mar-sz {
+    margin-top: -25px;
+}
+
+.ac-mar {
+    margin-top: -54px;
+    font-size: 77px;
+    margin-bottom: 9px;
+}
+
+.ac-mar-tp {
+    margin-top: 40px;
+    font-size: 77px;
+    margin-bottom: 9px;
+}
+
+.ac-mar-tt {
+    margin-top: 15px;
+    font-size: 77px;
+    margin-bottom: 9px;
+}
+
+.ac-mar-tx {
+    margin-top: 80px;
+    font-size: 77px;
+    margin-bottom: 9px;
+}
+
+.ac-mar-tb {
+    margin-top: 180px;
+    font-size: 77px;
+    margin-bottom: 9px;
+}
+
+.ac-mar-tl {
+    margin-top: -180px;
+    font-size: 77px;
+    margin-bottom: 9px;
+}
+
+.ac-mar-up {
+
+    font-size: 77px;
+    margin-bottom: 0px;
+}
+
+.bt-mar {
+    margin-bottom: -80px;
+}
+
+.bt-mar-long {
+    margin-bottom: -180px;
+}
+
+.pic-shadow {
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+}
+
+@media all and (max-width: 1024px) {
+    .videobg video {
+        display: initial;
+    }
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}

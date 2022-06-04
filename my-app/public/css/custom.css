@@ -1,0 +1,70 @@
+/*! Place your custom styles here */
+#size {
+  width: 70%;
+}
+#size-btn {
+  width: 20%;
+  height: 50%;
+  margin-left: 40%;
+  margin-top: 5%;
+  line-height: 2.5em;
+}
+#size-1 {
+  width: 70%;
+  height: 90%;
+}
+/*@media (min-width : 767px){
+  #size{
+    margin-left: 18 !important;
+  }
+}*/
+/* form canvas on Create student chapter page */
+#granim-0 {
+  border-radius: 15px 15px 15px !important;
+}
+.container {
+  border-radius: 15px 15px 15px !important;
+}
+
+#gradientForm {
+  background: #9cecfb !important; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.inputFormLabel {
+  text-transform: uppercase;
+  font-size: 1.5em !important;
+}
+#formSize {
+  max-width: 500px !important;
+}
+#btnGrad {
+  background: #9cecfb !important; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* form canvas on Create student chapter page  end*/
+.text-align {
+  text-align: justify;
+}
